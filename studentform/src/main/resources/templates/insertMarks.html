@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student marks</title>
+</head>
+<body>
+    <div class="container">
+        <form action="/insert" method="post">
+            <h1>Enter Student OOP marks</h1>
+            <label for="studentId">Student Id: </label>
+            <input type="text" id="studentId" name="studentId" required>
+            <br><br>
+            <label for="studentName">Student Name: </label>
+            <input type="text" id="studentName" name="studentName" required>
+            <br><br>
+            <label for="caMarks">CA Marks: </label>
+            <input type="text" id="caMarks" name="caMarks" required>
+            <br><br>
+            <label for="practicalMarks">Practical Marks: </label>
+            <input type="text" id="practicalMarks" name="practicalMarks" required>
+            <br><br>
+            <label for="theoryMarks">Theory Marks: </label>
+            <input type="text" id="theoryMarks" name="theoryMarks" required>
+            <br><br>
+
+            <a href="/view"><button type="submit">View All Marks</button></a>
+            <button type="submit">Save</button>
+
+        </form>
+    </div>
+</body>
+</html>
